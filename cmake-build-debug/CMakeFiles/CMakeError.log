@@ -1,0 +1,41 @@
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /Library/Developer/CommandLineTools/usr/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+ld: library not found for -lc++
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+
+Performing C++ SOURCE FILE Test CXXFLAG_WCAST_ALIGN_STRICT_OKAY failed with the following output:
+Change Dir: /Users/General/Google Drive (jiayanluo2024@u.northwestern.edu)/School/Freshman Year/Winter/CS 211 - Fundamentals of Computer Programming 2/Homework/Final Project/final_project2/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_2241e/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_2241e.dir/build.make CMakeFiles/cmTC_2241e.dir/build
+Building CXX object CMakeFiles/cmTC_2241e.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -DCXXFLAG_WCAST_ALIGN_STRICT_OKAY -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk   -Wcast-align=strict -o CMakeFiles/cmTC_2241e.dir/src.cxx.o -c "/Users/General/Google Drive (jiayanluo2024@u.northwestern.edu)/School/Freshman Year/Winter/CS 211 - Fundamentals of Computer Programming 2/Homework/Final Project/final_project2/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx"
+warning: unknown warning option '-Wcast-align=strict'; did you mean '-Wcast-align'? [-Wunknown-warning-option]
+1 warning generated.
+Linking CXX executable cmTC_2241e
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2241e.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++   -DCXXFLAG_WCAST_ALIGN_STRICT_OKAY -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_2241e.dir/src.cxx.o  -o cmTC_2241e 
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXXFLAG_WERROR_BOOL_COMPARE_OKAY failed with the following output:
+Change Dir: /Users/General/Google Drive (jiayanluo2024@u.northwestern.edu)/School/Freshman Year/Winter/CS 211 - Fundamentals of Computer Programming 2/Homework/Final Project/final_project2/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b34ec/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_b34ec.dir/build.make CMakeFiles/cmTC_b34ec.dir/build
+Building CXX object CMakeFiles/cmTC_b34ec.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -DCXXFLAG_WERROR_BOOL_COMPARE_OKAY -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk   -Werror=bool-compare -o CMakeFiles/cmTC_b34ec.dir/src.cxx.o -c "/Users/General/Google Drive (jiayanluo2024@u.northwestern.edu)/School/Freshman Year/Winter/CS 211 - Fundamentals of Computer Programming 2/Homework/Final Project/final_project2/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx"
+warning: unknown warning option '-Werror=bool-compare' [-Wunknown-warning-option]
+1 warning generated.
+Linking CXX executable cmTC_b34ec
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b34ec.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++   -DCXXFLAG_WERROR_BOOL_COMPARE_OKAY -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_b34ec.dir/src.cxx.o  -o cmTC_b34ec 
+
+
+Source file was:
+int main() { return 0; }
